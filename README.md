@@ -28,5 +28,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-- [Visite o projeto online] (https://JoaoPedro019.github.io/Nlw-Setup)
+- [Visite o projeto online] (https://JoaoPedro019.github.io/Conversor-De-Medidas)
 
