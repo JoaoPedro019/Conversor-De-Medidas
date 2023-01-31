@@ -1,4 +1,3 @@
-
 let euro = 5.55;
 let dolar = 5.12;
 let francosuico = 5.53;
@@ -42,4 +41,3 @@ let francosuico = 5.53;
     var valorEmFahrenheit = (inputValor * 9) / 5 + 32;
     Celsius.innerHTML = (`${inputValor}°C equivalem a ${valorEmFahrenheit}°F`);
   }
-  
