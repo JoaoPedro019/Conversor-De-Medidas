@@ -3,7 +3,7 @@
 body {
     font-family: "Roboto Mono", monospace;
     text-align: center;
-    background: linear-gradient(9deg, #000000 0%, #000e91 35%, #0004ff 100%);
+    background: linear-gradient(9deg, #000000 0%, #030835 35%, #0b0b11 100%);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -54,7 +54,8 @@ body {
   .card {
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 25%);
+    
     color: #fff;
     padding: 1rem;
     margin: 40px;
