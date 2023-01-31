@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <title>Conversor de Moedas</title>
+        
+</head>
+<body>
+    
+    </html>
+    <div class="container">
+        <h1 class="page-title">
+          Conversor de medidas
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+      </div>
+      <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+      </a>
+      <section class="container-cards">
+        <div class="card money">
+            <h2 class="text card">Conversor De Moeda</h2>
+            <img src="./assets/imgs/icons8-saco-de-dinheiro-64.png" class="icon" />
+            <h3>Insira o valor:</h3>
+            <input type="text" id="valores">
+            <button onclick="moneyConvert()" name="converter" id="converter" value="converter">converter</button>
+                <div>
+                    <h3>Escolha a moeda:</h3>
+                    <input type="radio" name="base" id="dolar">Dolar
+                    <input type="radio" name="base" id="euro">Euro
+                </div>
+                <div class="result">
+                <h3>Valor em Real:</h3>
+                <div id="valorFinal"></div>
+            </div>
+          </div>
+          
+          <div class="card space">
+          <h2 class="text card">Conversor Espacial</h2>
+          <img src="./assets/imgs/icons8-foguete-96.png" class="icon" />
+          <label class="text-element" for="anos-luz">Quantos anos-luz?</label>
+          <input id="anos-luz"></input>
+          <button onclick="lightYearConvert()">Converter</button>
+        </div>
+
+        <div class="card temperature">
+            <h2 class="text card">Conversor de Temperatura</h2>
+          <img src="./assets/imgs/icons8-ponto-de-orvalho-96.png" class="icon" />
+          <label class="text-element" for="celsius">Quantos °C?</label>
+          <input id="celsius"></input>
+          <button onclick="celsiusConvert()">Converter</button>
+        </div>
+      </section>
+    <footer>
+        <h4>Desenvolvido por João Pedro</h2>
+    </footer>
+
+
+    <script src="main.js" defer></script>
+</body>
