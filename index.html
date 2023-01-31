@@ -42,18 +42,25 @@
           <div class="card space">
           <h2 class="text card">Conversor Espacial</h2>
           <img src="./assets/imgs/icons8-foguete-96.png" class="icon" />
-          <label class="text-element" for="anos-luz">Quantos anos-luz?</label>
+          <h3>Quantos anos-luz?<h3>
           <input id="anos-luz"></input>
           <button onclick="lightYearConvert()">Converter</button>
+          <div class="result">
+            <h3>Valor em anos-luz:</h3>
+            <div id="valorAnos"></div>
         </div>
-
+      </div>
         <div class="card temperature">
             <h2 class="text card">Conversor de Temperatura</h2>
           <img src="./assets/imgs/icons8-ponto-de-orvalho-96.png" class="icon" />
-          <label class="text-element" for="celsius">Quantos °C?</label>
+          <h3>Quantos °C?</h3>
           <input id="celsius"></input>
           <button onclick="celsiusConvert()">Converter</button>
+          <div class="result">
+            <h3>Valor em fahrenheit:</h3>
+            <div id="valorCelsius"></div>
         </div>
+      </div>
       </section>
     <footer>
         <h4>Desenvolvido por João Pedro</h2>
@@ -61,4 +68,8 @@
 
 
     <script src="main.js" defer></script>
+    <script type="text/javascript" src="/text.js"></script>
+    <script>
+    VanillaTilt.init(document.querySelectorAll(".card"));
+    </script>
 </body>
