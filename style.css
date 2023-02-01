@@ -45,6 +45,11 @@ body {
   h2 {
     color: #000000;
   }
+  
+input {
+  text-align: center;
+  font-size: large;
+}
 
   .container-cards {
     display: flex;
