@@ -1,7 +1,7 @@
 <h1 align="center"> Conversor </h1>
 
 <p align="center">
-Imersão um evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
+Imersão Dev um evento exclusivo e gratuito, promovido pela Alura para ensino de tecnologias WEB. <br/>
 </p>
 
 <p align="center">
